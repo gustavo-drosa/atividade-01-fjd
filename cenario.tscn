@@ -96,3 +96,6 @@ position = Vector2(147, 487)
 
 [node name="portal" parent="." unique_id=1401481132 instance=ExtResource("3_xwuul")]
 position = Vector2(248.99998, 27.000004)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1017139062]
+position = Vector2(236, 293)

@@ -13,9 +13,14 @@ func _process(delta: float) -> void:
 
 func _on_body_entered(body: Node2D) -> void:
 	if(body.name == "player"):
-		print("Jogador 1 venceu!!")
+		print("Jogador 1 venceu! Parabéns!!")
+		await get_tree().create_timer(2.0).timeout
+		get_tree().reload_current_scene()
 	elif(body.name == "player2"):
-		print("Jogador 2 venceu!!")
+		print("Jogador 2 venceu! Parabéns!!")
+		await get_tree().create_timer(2.0).timeout
+		get_tree().reload_current_scene()
+		
 	
 	
 	

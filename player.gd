@@ -26,8 +26,10 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 
-	if position.y > 500:
-		position.y = 0
+	if position.y > 1000:
+		position.y = 520
+		position.x = 220
+		velocity.y = 0
 
 	if !is_on_floor():
 		animacao.play("jump")

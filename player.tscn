@@ -69,7 +69,7 @@ metadata/_edit_group_ = true
 sprite_frames = SubResource("SpriteFrames_q1on3")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.62313336
+frame_progress = 0.107219435
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=561082165]
 position = Vector2(0, 2)

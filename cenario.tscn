@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dotdiik6811aw" path="res://assets/Seasonal Tilesets/3 - Tropics/Terrain (16 x 16).png" id="1_fqljg"]
 [ext_resource type="PackedScene" uid="uid://d038k4uvwogdj" path="res://player.tscn" id="2_xwuul"]
 [ext_resource type="PackedScene" uid="uid://b8gva0d7dfrq5" path="res://portal.tscn" id="3_xwuul"]
+[ext_resource type="PackedScene" uid="uid://b4sxy8o1pg3rh" path="res://player_2.tscn" id="4_bj8tx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bj8tx"]
 texture = ExtResource("1_fqljg")
@@ -99,3 +100,5 @@ position = Vector2(248.99998, 27.000004)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1017139062]
 position = Vector2(236, 293)
+
+[node name="player 2" parent="." unique_id=134883621 instance=ExtResource("4_bj8tx")]

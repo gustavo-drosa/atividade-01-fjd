@@ -122,10 +122,8 @@ script = ExtResource("1_x3sgo")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1511407868]
-position = Vector2(149, -9)
 shape = SubResource("RectangleShape2D_q6r6c")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1306504391]
-position = Vector2(149, -9)
 sprite_frames = SubResource("SpriteFrames_vh745")
 animation = &"idle"

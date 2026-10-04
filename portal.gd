@@ -16,7 +16,7 @@ func _on_body_entered(body: Node2D) -> void:
 		print("Jogador 1 venceu! Parabéns!!")
 		await get_tree().create_timer(2.0).timeout
 		get_tree().reload_current_scene()
-	elif(body.name == "player2"):
+	elif(body.name == "player 2"):
 		print("Jogador 2 venceu! Parabéns!!")
 		await get_tree().create_timer(2.0).timeout
 		get_tree().reload_current_scene()

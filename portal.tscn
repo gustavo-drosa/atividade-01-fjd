@@ -47,8 +47,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_58oby"]
-radius = 13.0
-height = 122.0
+radius = 44.999996
+height = 189.99998
 
 [node name="portal" type="Area2D" unique_id=1401481132]
 scale = Vector2(0.2, 0.2)
